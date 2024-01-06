@@ -14,7 +14,7 @@ class SplashPageActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
 
         findViewById<Button>(R.id.btnWelcome).setOnClickListener {
-            var intent = Intent(this@SplashPageActivity, HomeFragment::class.java)
+            var intent = Intent(this@SplashPageActivity, MainActivity::class.java)
             startActivity(intent)
             finish()
         }
