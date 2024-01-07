@@ -5,7 +5,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.recipeapp.databinding.RandomvariableMainBinding
 import com.example.recipeapp.entities.Category
-import com.example.recipeapp.entities.Recipes
 
 class MainCategoryAdapter: RecyclerView.Adapter<MainCategoryAdapter.RecipeViewHolder>(){
 

@@ -21,7 +21,7 @@ data class Recipes (
     var category: String,
 //  number of servings
     @ColumnInfo(name = "serves")
-    var servings:Int,
+    var servings:String,
 //  difficulty level
     @ColumnInfo(name = "difficulty")
     var difficulty:String,

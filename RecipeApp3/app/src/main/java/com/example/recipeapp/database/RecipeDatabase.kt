@@ -8,7 +8,7 @@ import com.example.recipeapp.dao.RecipeDao
 import com.example.recipeapp.entities.Category
 import com.example.recipeapp.entities.Recipes
 
-@Database(entities = [Recipes::class,Category::class], version = 3, exportSchema = false)
+@Database(entities = [Recipes::class,Category::class], version = 4, exportSchema = false)
 abstract class RecipeDatabase: RoomDatabase() {
     companion object {
 
